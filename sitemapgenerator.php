@@ -20,7 +20,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-*/-->'
+*/-->';
 
 	header("Content-Type: application/xml; charset=utf-8");
 	echo '<?xml version="1.0" encoding="UTF-8"?>' .PHP_EOL;
@@ -30,7 +30,7 @@ THE SOFTWARE.
 				http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">' .PHP_EOL;
 
 			define('SITEMAP_DIR','./');
-			define('SITEMAP_DIR_URL', 'http://www.example.com/')
+			define('SITEMAP_DIR_URL', 'http://www.example.com/');
 
 			$freq = "always";
 			$prio = 1;
