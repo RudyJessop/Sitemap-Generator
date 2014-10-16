@@ -1,6 +1,6 @@
 <?php
 	echo '<!-- /* This Sitemap generator was built by Rudy Jessop at http://rudyjessop.com 
-	This software is under MIT Commerical Licence Copyright &copy; 2014 Rudy Jessop Creative Professional */-->'
+	This software is under MIT Commerical Licence Copyright &copy; 2014 Rudy Jessop Creative Professional */-->';
 
 	echo '<!-- /* 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -44,7 +44,7 @@ THE SOFTWARE.
 
 	}
 
-	echo '</urlset>'
+	echo '</urlset>';
 
 	urlElement("http://rudyjessop.com");
 	urlElement("http://github.com/RudyJessop/Sitemap-Generator");
